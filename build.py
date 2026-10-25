@@ -595,6 +595,23 @@ NICHES = [
 
 AREAS = [
     {
+        "slug": "chicago", "name": "Chicago",
+        "title": "Facebook Ads Agency in Chicago, IL | Chicago Facebook Ads",
+        "desc": "Chicago Facebook ads agency in the Loop: Facebook and Instagram campaigns targeted by neighborhood, from River North to Hyde Park. Free account audit.",
+        "lede": "Chicago is our home base, with an office at 229 W Madison St in the Loop, and the city is a market of very different neighborhoods rather than one audience.",
+        "about": "A dense downtown full of offices and professional services sits next to residential neighborhoods with their own character and spending habits. That makes Chicago a strong market for law firms, real estate, med spas, fitness studios, restaurants and B2B companies, as long as targeting follows the neighborhoods you actually serve.",
+        "target": [
+            "Neighborhood-level targeting by ZIP code or radius, such as the Loop, River North, West Loop, Lincoln Park, Lakeview, Logan Square and Hyde Park",
+            "Separate ads for downtown workers and for residents",
+            "Small radius targeting for studios, clinics and restaurants, since city customers rarely travel far",
+            "City-wide campaigns for services that come to the customer, such as HVAC and remodeling",
+        ],
+        "niches": ["law-firms", "real-estate", "med-spas", "fitness"],
+        "near": ["evanston", "oak-park"],
+        "faq": ("Do you work with businesses outside downtown?",
+                "Yes. We're based in the Loop, but we run campaigns for businesses in every part of the city and the suburbs, targeted to the neighborhoods each one serves."),
+    },
+    {
         "slug": "naperville", "name": "Naperville",
         "title": "Facebook Ads Agency in Naperville, IL | Naperville Facebook Ads",
         "desc": "Facebook and Instagram ads for Naperville businesses: local targeting across Naperville, Aurora, Lisle and Plainfield, built to bring in leads. Free audit.",
@@ -924,7 +941,7 @@ def header():
 def footer():
     svc = "".join(f'<li><a href="{url(s["slug"])}">{e(s["nav"])}</a></li>' for s in SERVICES)
     ind = "".join(f'<li><a href="{url(i["slug"])}">{e(i["nav"])}</a></li>' for i in INDUSTRIES + NICHES)
-    ar = '<li><a href="/">Chicago</a></li>' + "".join(f'<li><a href="{url(a["slug"])}">{e(a["name"])}</a></li>' for a in AREAS)
+    ar = "".join(f'<li><a href="{url(a["slug"])}">{e(a["name"])}</a></li>' for a in AREAS)
     tl = "".join(f'<li><a href="{url(t["slug"])}">{e(t["nav"])}</a></li>' for t in TOOLS)
     tools_col = f'<div><h2 class="f-h">Free tools</h2><ul>{tl}</ul></div>' if TOOLS else ""
     return f"""<footer class="site-footer">
