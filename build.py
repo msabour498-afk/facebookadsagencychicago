@@ -213,6 +213,84 @@ SERVICES = [
              "Yes. HubSpot can share lead stage changes with Meta as conversion events, and we can also send events server-side."),
         ],
     },
+    {
+        "slug": "landing-pages",
+        "name": "Landing Pages",
+        "nav": "Landing pages",
+        "card": "Fast, single-purpose pages that turn ad clicks into leads.",
+        "title": "Landing Pages for Facebook Ads in Chicago | Landing Page Design",
+        "desc": "Landing pages for Facebook and Instagram ads, built in Chicago: fast, mobile-first pages that match your ad and turn clicks into qualified leads. Free audit.",
+        "h1": "Landing pages for ads",
+        "lede": "Sending ad traffic to your home page makes people hunt for what they clicked on. A landing page repeats the ad's promise, answers the main questions and asks for one thing: the lead.",
+        "includes": [
+            "One page per offer, written to match the ad that sends traffic to it",
+            "Mobile-first layout, since most Facebook and Instagram clicks come from phones",
+            "Fast load times, with no heavy sliders or auto-playing video",
+            "Short forms that connect to your CRM",
+            "Pixel and Conversions API events for form submits and calls",
+            "A/B tests on headline, offer and form length",
+        ],
+        "faqs": [
+            ("Can't I just send ads to my website?",
+             "You can, but a general site has many paths and distractions. A page built for one offer usually gives you a cleaner read on what the ad is doing and makes it easier for visitors to act."),
+            ("Where do the pages live?",
+             "On your own domain, either inside your current site or on a simple standalone page. We'll recommend whichever is faster to launch and easier for you to keep."),
+            ("Landing page or lead form?",
+             "Both have a place. Lead forms usually cost less per lead; landing pages give people more information before they reach out. When budget allows, we test both."),
+        ],
+    },
+    {
+        "slug": "video-ads",
+        "name": "Video Ads",
+        "nav": "Video ads",
+        "card": "Short vertical video for Reels, Stories and Feed.",
+        "title": "Facebook Video Ads in Chicago | Reels and Video Ad Agency",
+        "desc": "Facebook and Instagram video ads for Chicago businesses: short vertical video for Reels, Stories and Feed, with hooks and captions built to bring leads. Free audit.",
+        "h1": "Facebook and Instagram video ads",
+        "lede": "Short video is where much of the attention on Facebook and Instagram goes now. We plan, script and edit vertical videos that stop the scroll and lead to a clear next step.",
+        "includes": [
+            "Concepts and short scripts built around one message per video",
+            "Hooks in the first few seconds, where most viewers decide",
+            "Captions on every video, since many people watch with the sound off",
+            "Editing of your own phone footage into Reels, Stories and Feed versions",
+            "Simple filming guides for you or your team",
+            "Retargeting audiences built from people who watched",
+        ],
+        "faqs": [
+            ("Do we need a production crew?",
+             "Usually not. Clear phone video of a real person explaining something useful often fits the platform better than a polished commercial."),
+            ("How long should a video ad be?",
+             "Most of our tests start at 15 to 30 seconds. The opening matters more than the length, so we test several openings on the same video."),
+            ("Who appears in the videos?",
+             "Ideally you or someone on your team. People respond to the actual faces behind the business, and it builds trust before the first call."),
+        ],
+    },
+    {
+        "slug": "messenger-ads",
+        "name": "Click-to-Message Ads",
+        "nav": "Click-to-message ads",
+        "card": "Ads that start a Messenger, WhatsApp or Instagram chat.",
+        "title": "Click-to-Message Ads in Chicago | Messenger and WhatsApp Ads",
+        "desc": "Click-to-message ads for Chicago businesses: Facebook and Instagram ads that open a Messenger, WhatsApp or Instagram Direct chat with qualifying questions. Free audit.",
+        "h1": "Click-to-message ads",
+        "lede": "Some people would rather ask a quick question than fill out a form. Click-to-message ads open a conversation in Messenger, WhatsApp or Instagram Direct, so they can reach you in the app they already use.",
+        "includes": [
+            "Campaigns that send people to Messenger, WhatsApp or Instagram Direct",
+            "A greeting and a few quick-reply questions to qualify each chat",
+            "Routing so chats reach the right person on your team",
+            "Saved replies for common questions about price, timing and service area",
+            "Tracking of conversations that turn into booked calls or quotes",
+            "Spanish-language versions where your audience prefers it",
+        ],
+        "faqs": [
+            ("Who answers the messages?",
+             "Your team. We set up the greeting and qualifying questions so you see who someone is and what they want before you reply."),
+            ("What kinds of businesses does this suit?",
+             "Service businesses where people want to ask something first: price ranges, availability, whether you cover their area. It's also useful for audiences who prefer WhatsApp."),
+            ("How fast do we need to reply?",
+             "Quickly. People expect a chat to feel like a chat, so slow replies lose leads. If your team can't answer fast, a lead form may be a better fit."),
+        ],
+    },
 ]
 
 INDUSTRIES = [
@@ -270,6 +348,397 @@ INDUSTRIES = [
         "note": "Ads about housing, employment, credit and other financial products, and social or political issues must run under Meta's Special Ad Categories. These limit targeting by age, gender and ZIP code. We plan these campaigns within those rules from the start.",
     },
 ]
+
+# Industry pages. "parent" is b2b or b2c; "match" is the industry name on the parent page it links from.
+NICHES = [
+    {
+        "slug": "hvac", "parent": "b2c", "match": "Home services",
+        "name": "HVAC", "nav": "HVAC companies",
+        "card": "Tune-ups, maintenance plans and replacement estimates.",
+        "title": "Facebook Ads for HVAC Companies in Chicago | HVAC Leads",
+        "desc": "Facebook ads for Chicago HVAC companies: seasonal tune-up, maintenance plan and replacement campaigns targeted to your service area. Free ad account audit.",
+        "h1": "Facebook ads for HVAC companies",
+        "lede": "Chicago's seasons drive HVAC demand: AC in early summer, furnaces when the first cold snap hits. Facebook ads let you get in front of homeowners in your service area before they need an emergency call.",
+        "works": [
+            "Seasonal campaigns: AC tune-ups in spring, furnace checks in fall",
+            "Separate campaigns for maintenance plans and system replacements",
+            "Service-area targeting by the ZIP codes and suburbs you cover",
+            "Short videos of your techs explaining common problems",
+            "Lead forms that ask for ZIP code, service type and urgency",
+        ],
+        "offers": ["Seasonal tune-up price", "Maintenance plan sign-up", "Free replacement estimate", "Second opinion on a replacement quote"],
+        "watch": "If you advertise financing, Meta treats it as a financial product ad, which runs under Special Ad Category rules with limited targeting. We keep financing in separate campaigns so it doesn't restrict the rest.",
+        "faqs": [
+            ("Can Facebook bring in emergency repair calls?",
+             "Some, but people with no heat usually search on Google. Facebook works best for planned work: tune-ups, maintenance plans and replacements people are thinking about before they're urgent."),
+            ("Should we advertise all year?",
+             "Usually, yes, with the message and budget shifting by season. Keeping campaigns running also keeps Meta's data warm for the busy months."),
+        ],
+    },
+    {
+        "slug": "roofing", "parent": "b2c", "match": "Home services",
+        "name": "Roofing", "nav": "Roofing companies",
+        "card": "Inspections and replacement estimates in the areas you serve.",
+        "title": "Facebook Ads for Roofing Companies in Chicago | Roofing Leads",
+        "desc": "Facebook ads for Chicago roofing contractors: inspection and replacement campaigns, neighborhood targeting and lead forms that qualify homeowners. Free audit.",
+        "h1": "Facebook ads for roofers",
+        "lede": "Most homeowners don't think about their roof until something goes wrong or a neighbor gets one replaced. Facebook ads put your company in front of them at that moment, in the neighborhoods you actually work.",
+        "works": [
+            "Inspection offers that start the conversation without a hard sell",
+            "Neighborhood targeting around recent jobs and after major storms",
+            "Photos and short videos of your own crews and finished roofs",
+            "Lead forms asking for address, roof age and the reason for the request",
+            "Retargeting for homeowners who are comparing quotes",
+        ],
+        "offers": ["Free roof inspection", "Replacement estimate", "Storm damage check", "Gutter and roof package"],
+        "watch": "Homeowners have learned to be wary of storm chasers. Ads that show your real crew, your address and your years in the area build more trust than urgent \"act now\" messages.",
+        "faqs": [
+            ("Do roofing ads only work after storms?",
+             "Storms bring spikes, but replacement and inspection campaigns can run steadily through the season. Older neighborhoods with aging roofs are good year-round targets."),
+            ("How do we keep out low-quality leads?",
+             "Ask a few qualifying questions in the form, such as homeowner status and roof age, and follow up fast. That screens out most of the people who were just curious."),
+        ],
+    },
+    {
+        "slug": "remodeling", "parent": "b2c", "match": "Home services",
+        "name": "Remodeling", "nav": "Remodeling contractors",
+        "card": "Kitchen, bath and whole-home projects with long planning cycles.",
+        "title": "Facebook Ads for Remodeling Contractors in Chicago",
+        "desc": "Facebook ads for Chicago remodelers: kitchen, bath and basement campaigns with portfolio creative, budget qualifying and long-window retargeting. Free audit.",
+        "h1": "Facebook ads for remodelers",
+        "lede": "Remodeling projects are big decisions that people plan for months. Facebook and Instagram are where homeowners collect ideas, which makes them a good place to show your work and stay in front of them until they're ready.",
+        "works": [
+            "Carousel and video ads showing your own finished projects",
+            "Separate campaigns for kitchens, baths and basements",
+            "Lead forms that ask about project type, budget range and timeline",
+            "Retargeting windows of several months to match planning time",
+            "Design consultation offers rather than discounts",
+        ],
+        "offers": ["Design consultation", "In-home estimate", "Project cost guide", "Showroom visit"],
+        "watch": "Low-budget inquiries can swamp your calendar. Asking for a budget range up front, and stating a starting price in the ad, keeps the leads closer to the projects you want.",
+        "faqs": [
+            ("How long before ads turn into projects?",
+             "Expect a longer gap than most home services because people plan these projects for months. Track consultations booked, not just leads, so you can judge the campaign fairly."),
+            ("We don't have professional photos. Is that a problem?",
+             "Not necessarily. Clear phone photos and short walkthrough videos of real projects often outperform polished images that look like stock."),
+        ],
+    },
+    {
+        "slug": "dental", "parent": "b2c", "match": "Health and wellness",
+        "name": "Dental", "nav": "Dental practices",
+        "card": "New patients, implants and aligners for local practices.",
+        "title": "Facebook Ads for Dentists in Chicago | Dental Practice Marketing",
+        "desc": "Facebook ads for Chicago dental practices: new patient, implant and clear aligner campaigns that follow Meta's health ad policies. Free ad account audit.",
+        "h1": "Facebook ads for dentists",
+        "lede": "Dental practices grow by filling the schedule with new patients and higher-value treatments like implants and clear aligners. Facebook ads can do both, with creative and tracking that respect health privacy rules.",
+        "works": [
+            "New-patient campaigns focused on the few miles around your office",
+            "Separate campaigns for implants, aligners and cosmetic work",
+            "Videos of your dentists and team that show what a visit feels like",
+            "Online booking or lead forms that ask about insurance and treatment interest",
+            "Retargeting for people who read your treatment pages",
+        ],
+        "offers": ["New patient exam and cleaning", "Implant consultation", "Clear aligner consultation", "Whitening offer"],
+        "watch": "Meta doesn't allow ads that imply someone has a health condition (\"Embarrassed by your teeth?\"), and detailed targeting by health topics is limited. Tracking also needs care so no protected health information is sent to Meta.",
+        "faqs": [
+            ("Can we target people who need implants?",
+             "Not directly. Meta limits targeting by health topics. Instead, we target the right area and age range and let the creative attract people interested in implants."),
+            ("Is the Meta Pixel safe for a dental website?",
+             "It can be if it's set up carefully. We avoid sending page-level health details and keep tracking to general events like a form submission or booking."),
+        ],
+    },
+    {
+        "slug": "med-spas", "parent": "b2c", "match": "Health and wellness",
+        "name": "Med Spas", "nav": "Med spas",
+        "card": "Consultations and bookings for injectables, laser and skin.",
+        "title": "Facebook Ads for Med Spas in Chicago | Med Spa Marketing",
+        "desc": "Facebook and Instagram ads for Chicago med spas: consultation and booking campaigns for injectables, laser and skin treatments within Meta's ad rules. Free audit.",
+        "h1": "Facebook ads for med spas",
+        "lede": "Med spa clients find treatments on Instagram and Facebook long before they book. Ads that show your providers, explain treatments plainly and make booking easy turn that interest into appointments.",
+        "works": [
+            "Instagram-first creative: Reels and Stories featuring your providers",
+            "Separate campaigns for injectables, laser and skin treatments",
+            "Consultation offers that let people ask questions before committing",
+            "Click-to-message ads for people who want to ask about price first",
+            "Retargeting for visitors who looked at a treatment page",
+        ],
+        "offers": ["Free consultation", "New client offer", "Membership program", "Treatment package"],
+        "watch": "Meta limits cosmetic procedure ads to people 18 and older and restricts before-and-after imagery and claims about results. We plan creative within those rules so ads don't get rejected or limited.",
+        "faqs": [
+            ("Can we show before-and-after photos?",
+             "Meta restricts them for cosmetic procedures. We usually rely on provider videos, treatment explanations and client experience instead."),
+            ("Should we advertise prices?",
+             "A starting price can filter out people who aren't a fit. Many med spas pair it with a consultation offer so the focus stays on the right treatment."),
+        ],
+    },
+    {
+        "slug": "real-estate", "parent": "b2c", "match": "Real estate and mortgage",
+        "name": "Real Estate", "nav": "Real estate",
+        "card": "Buyer and seller leads within Meta's housing ad rules.",
+        "title": "Facebook Ads for Real Estate Agents in Chicago | Real Estate Leads",
+        "desc": "Facebook ads for Chicago real estate agents and teams: home valuation, buyer and listing campaigns run within Meta's housing Special Ad Category. Free audit.",
+        "h1": "Facebook ads for real estate",
+        "lede": "Facebook is one of the main places agents find buyer and seller leads. Housing ads come with extra rules, so the campaigns and creative have to be built for them from the start.",
+        "works": [
+            "Home valuation offers for seller leads",
+            "New listing and open house ads with video walkthroughs",
+            "Buyer guides and alerts for first-time buyers",
+            "Lead forms paired with an instant text or email reply",
+            "Long follow-up sequences, since many leads buy months later",
+        ],
+        "offers": ["Free home valuation", "New listings alert", "First-time buyer guide", "Open house invite"],
+        "watch": "Real estate ads run under Meta's housing Special Ad Category. You can't target by age, gender or ZIP code, and location targeting has to stay broad. Lookalike audiences are replaced by a limited version.",
+        "faqs": [
+            ("Can we target specific Chicago neighborhoods?",
+             "Not tightly. Housing ads need broad location targeting. We use creative that names the neighborhood so the right people raise their hand."),
+            ("Are Facebook real estate leads any good?",
+             "They're usually early in the process. Agents who follow up fast and keep in touch for months get the most from them."),
+        ],
+    },
+    {
+        "slug": "fitness", "parent": "b2c", "match": "Fitness studios and gyms",
+        "name": "Fitness", "nav": "Gyms and fitness studios",
+        "card": "Trial classes and memberships from people nearby.",
+        "title": "Facebook Ads for Gyms and Fitness Studios in Chicago",
+        "desc": "Facebook and Instagram ads for Chicago gyms and fitness studios: trial class, challenge and membership campaigns aimed at people near your location. Free audit.",
+        "h1": "Facebook ads for gyms",
+        "lede": "People choose a gym or studio close to home or work, and they decide based on what it feels like inside. Short videos of your classes, coaches and members, shown to people nearby, do a lot of the selling.",
+        "works": [
+            "Tight targeting around each location, since people rarely travel far",
+            "Trial class or intro offers with a clear next step",
+            "Reels of real classes, coaches and members",
+            "Click-to-message ads for people who want to ask a question first",
+            "Bigger pushes in January and early spring, when interest peaks",
+        ],
+        "offers": ["Free trial class", "Intro week pass", "Six-week challenge", "First month discount"],
+        "watch": "Meta's rules on health and fitness ads limit claims about weight loss and before-and-after body images. We keep the focus on the experience, schedule and community instead.",
+        "faqs": [
+            ("How far should we target from our location?",
+             "In the city, often just a few miles or a handful of neighborhoods. In the suburbs it can be wider. We set it by where your current members live."),
+            ("Trial offer or discount?",
+             "A free or low-cost trial usually brings more people through the door, and your team closes them in person. We test both when there's budget."),
+        ],
+    },
+    {
+        "slug": "saas", "parent": "b2b", "match": "SaaS and software",
+        "name": "SaaS", "nav": "SaaS and software",
+        "card": "Demos and trials from the right company size and role.",
+        "title": "Facebook Ads for SaaS Companies in Chicago | B2B SaaS Leads",
+        "desc": "Facebook and Instagram ads for SaaS and software companies: demo, trial and content campaigns with CRM sync and qualified-lead tracking. Free ad account audit.",
+        "h1": "Facebook ads for SaaS",
+        "lede": "Meta can be a cost-effective channel for software companies, especially for products business owners and team leads buy themselves. The work is in reaching the right roles and teaching Meta which leads become customers.",
+        "works": [
+            "Lookalike audiences built from your best customers",
+            "Short demo videos that show the product solving one problem",
+            "Lead forms asking about company size, role and current tool",
+            "CRM sync so qualified leads and closed deals go back to Meta",
+            "Retargeting for trial users and demo no-shows",
+        ],
+        "offers": ["Product demo", "Free trial", "Template or checklist download", "Live webinar"],
+        "watch": "Job-title targeting on Meta is less precise than on LinkedIn. We rely more on lookalikes, creative that calls out the role and qualifying questions that filter leads.",
+        "faqs": [
+            ("Is Facebook better than LinkedIn for SaaS?",
+             "They do different jobs. LinkedIn targets by role precisely but costs more per click. Meta often reaches the same people for less. Many companies run both and compare cost per qualified lead."),
+            ("Demo or free trial?",
+             "Whichever your sales process handles best. Trials suit simpler products; demos suit higher-priced ones. Track each to revenue before deciding."),
+        ],
+    },
+    {
+        "slug": "law-firms", "parent": "b2b", "match": "Professional services",
+        "name": "Law Firms", "nav": "Law firms",
+        "card": "Case inquiries by practice area, within advertising rules.",
+        "title": "Facebook Ads for Law Firms in Chicago | Lawyer Lead Generation",
+        "desc": "Facebook ads for Chicago law firms: practice-area campaigns for personal injury, family, estate planning and business law, with factual creative. Free audit.",
+        "h1": "Facebook ads for law firms",
+        "lede": "People rarely look for a lawyer on Facebook until they need one, but they do remember the firm they've seen explain things clearly. Practice-area campaigns and fast intake turn that into consultations.",
+        "works": [
+            "Separate campaigns for each practice area",
+            "Short videos of your attorneys answering common questions",
+            "Lead forms that ask for case type and a brief description",
+            "Fast intake follow-up, by phone or text",
+            "Retargeting for people who read your practice area pages",
+        ],
+        "offers": ["Free case review", "Consultation", "Estate planning guide", "Business legal checkup"],
+        "watch": "Attorney advertising rules apply to social ads. We keep claims factual, avoid promises about outcomes and have you review every ad before it runs.",
+        "faqs": [
+            ("Which practice areas work on Facebook?",
+             "Areas with broad consumer demand, such as personal injury, family law, estate planning and workers' compensation, tend to fit best. Niche business practices often do better with retargeting and referrals."),
+            ("How do we handle intake?",
+             "Leads go straight to your CRM or intake team with an instant reply, so someone can call while the person is still thinking about it."),
+        ],
+    },
+    {
+        "slug": "it-services", "parent": "b2b", "match": "IT and managed services",
+        "name": "IT Services", "nav": "IT and managed services",
+        "card": "Assessments and consultations from local business owners.",
+        "title": "Facebook Ads for IT and Managed Service Providers in Chicago",
+        "desc": "Facebook ads for Chicago IT and managed service providers: security assessment and consultation campaigns aimed at local business owners. Free audit.",
+        "h1": "Facebook ads for IT services",
+        "lede": "Small and mid-sized business owners scroll Facebook like everyone else, and many handle IT decisions themselves. Ads that speak to their real worries, such as downtime, security and slow support, open the door to an assessment.",
+        "works": [
+            "Targeting business owners in the areas you can service on site",
+            "Assessment offers with a clear, limited scope",
+            "Short videos explaining one common risk at a time",
+            "Lead forms asking about company size and current IT setup",
+            "Long retargeting windows, since contracts take time to switch",
+        ],
+        "offers": ["Free security assessment", "Network health check", "Backup and recovery review", "IT cost review"],
+        "watch": "Fear-heavy security ads can feel like spam. Plain explanations and a specific, useful assessment build more trust with owners who are already skeptical of IT vendors.",
+        "faqs": [
+            ("Can Facebook reach business decision-makers?",
+             "Yes, especially owners of small and mid-sized companies. We combine location targeting with business-owner interests and use qualifying questions to filter."),
+            ("How long until a lead becomes a contract?",
+             "Often months, because businesses wait for a contract to end or a problem to happen. Retargeting and email follow-up keep you in mind until then."),
+        ],
+    },
+]
+
+AREAS = [
+    {
+        "slug": "naperville", "name": "Naperville",
+        "title": "Facebook Ads Agency in Naperville, IL | Naperville Facebook Ads",
+        "desc": "Facebook and Instagram ads for Naperville businesses: local targeting across Naperville, Aurora, Lisle and Plainfield, built to bring in leads. Free audit.",
+        "lede": "Naperville is one of the largest Chicago suburbs, spread across DuPage and Will counties, with a busy downtown along the Riverwalk and a large family population.",
+        "about": "Families and homeowners make up much of the audience here, which suits home services, dental and health practices, tutoring and fitness studios. Downtown restaurants and shops draw people from neighboring towns too.",
+        "target": [
+            "Naperville ZIP codes 60540, 60563, 60564 and 60565",
+            "Nearby towns: Aurora, Lisle, Wheaton, Bolingbrook and Plainfield",
+            "Separate ads for the north and south sides when your service area differs",
+            "Family-focused offers and messaging",
+        ],
+        "niches": ["hvac", "remodeling", "dental", "fitness"],
+        "near": ["aurora", "oak-brook"],
+        "faq": ("Do you only work with Naperville businesses on site?",
+                "We work remotely with businesses across the Chicago area, from our office in the Loop. Campaigns are planned around your specific service area."),
+    },
+    {
+        "slug": "schaumburg", "name": "Schaumburg",
+        "title": "Facebook Ads Agency in Schaumburg, IL | Schaumburg Facebook Ads",
+        "desc": "Facebook and Instagram ads for Schaumburg businesses: B2B and local campaigns targeting Schaumburg, Hoffman Estates, Palatine and Elk Grove Village. Free audit.",
+        "lede": "Schaumburg is one of the northwest suburbs' main business centers, home to Woodfield Mall and many corporate offices along the I-90 corridor.",
+        "about": "That mix means two audiences: thousands of people who work here during the day, and the families who live in the surrounding neighborhoods. It suits B2B services as well as retail, dining and home services.",
+        "target": [
+            "Schaumburg ZIP codes 60173, 60193, 60194 and 60195",
+            "Nearby towns: Hoffman Estates, Elk Grove Village, Palatine and Rolling Meadows",
+            "Workday targeting around office areas for B2B and lunch offers",
+            "Residential targeting for home services and health practices",
+        ],
+        "niches": ["it-services", "saas", "hvac", "dental"],
+        "near": ["arlington-heights", "oak-brook"],
+        "faq": ("Can you target people who work in Schaumburg but live elsewhere?",
+                "Partly. Meta's location targeting can include people recently in an area, not just residents, which helps reach the daytime office population."),
+    },
+    {
+        "slug": "evanston", "name": "Evanston",
+        "title": "Facebook Ads Agency in Evanston, IL | Evanston Facebook Ads",
+        "desc": "Facebook and Instagram ads for Evanston businesses: local campaigns reaching Evanston, Skokie, Wilmette and Rogers Park residents. Free account audit.",
+        "lede": "Evanston sits on the lakefront just north of Chicago, home to Northwestern University and a walkable downtown full of independent businesses.",
+        "about": "The audience mixes students, university staff, young professionals and long-time homeowners in older houses. That suits remodeling and home services, health practices, fitness studios, tutoring and restaurants.",
+        "target": [
+            "Evanston ZIP codes 60201, 60202 and 60203",
+            "Nearby areas: Skokie, Wilmette and Chicago's Rogers Park",
+            "Separate messaging for students and for homeowners",
+            "Walkable radius targeting for studios and restaurants",
+        ],
+        "niches": ["remodeling", "fitness", "dental", "law-firms"],
+        "near": ["oak-park", "arlington-heights"],
+        "faq": ("Should we target Northwestern students?",
+                "Only if they're truly your customers. Student audiences can drive cheap clicks that don't convert, so we usually exclude them for home services and include them for food, fitness and tutoring."),
+    },
+    {
+        "slug": "oak-brook", "name": "Oak Brook",
+        "title": "Facebook Ads Agency in Oak Brook, IL | Oak Brook Facebook Ads",
+        "desc": "Facebook and Instagram ads for Oak Brook businesses: B2B and premium local campaigns reaching Oak Brook, Hinsdale, Elmhurst and Downers Grove. Free audit.",
+        "lede": "Oak Brook is a DuPage County business hub, with corporate offices, Oakbrook Center and a small but affluent residential population surrounded by larger suburbs.",
+        "about": "Many businesses here sell to other companies or to higher-income households in Hinsdale, Elmhurst and nearby towns. It suits professional services, B2B companies, med spas, cosmetic dentistry and premium home services.",
+        "target": [
+            "Oak Brook ZIP code 60523 and the surrounding DuPage towns",
+            "Nearby towns: Hinsdale, Elmhurst, Downers Grove, Westmont and Lombard",
+            "Business-owner and professional targeting for B2B offers",
+            "Premium offers and creative for higher-ticket services",
+        ],
+        "niches": ["law-firms", "med-spas", "saas", "remodeling"],
+        "near": ["naperville", "oak-park"],
+        "faq": ("Is Oak Brook too small to target on its own?",
+                "Usually, yes. We treat it as the center of a wider area that includes the surrounding DuPage suburbs, which gives Meta enough people to work with."),
+    },
+    {
+        "slug": "oak-park", "name": "Oak Park",
+        "title": "Facebook Ads Agency in Oak Park, IL | Oak Park Facebook Ads",
+        "desc": "Facebook and Instagram ads for Oak Park businesses: local campaigns reaching Oak Park, Forest Park, River Forest and Berwyn homeowners. Free audit.",
+        "lede": "Oak Park borders Chicago's West Side, known for its Frank Lloyd Wright homes, tree-lined streets and walkable business districts.",
+        "about": "Older homes mean steady demand for remodeling, roofing, HVAC and other home services. A walkable, community-minded population also supports local studios, health practices and restaurants.",
+        "target": [
+            "Oak Park ZIP codes 60301, 60302 and 60304",
+            "Nearby towns: Forest Park, River Forest and Berwyn",
+            "Homeowner targeting for older-home services",
+            "Local, community-focused creative",
+        ],
+        "niches": ["remodeling", "roofing", "hvac", "fitness"],
+        "near": ["evanston", "oak-brook"],
+        "faq": ("Do historic homes need different ads?",
+                "Often, yes. Owners of older homes care about craftsmanship and preservation, so creative that shows careful, period-appropriate work tends to resonate more than discount offers."),
+    },
+    {
+        "slug": "aurora", "name": "Aurora",
+        "title": "Facebook Ads Agency in Aurora, IL | Aurora Facebook Ads",
+        "desc": "Facebook and Instagram ads for Aurora businesses, in English and Spanish: local campaigns across Aurora, Naperville, Oswego and North Aurora. Free audit.",
+        "lede": "Aurora is Illinois's second-largest city, spanning Kane, DuPage, Will and Kendall counties, with a large Spanish-speaking community.",
+        "about": "Its size and diversity make it a strong market for home services, health and dental practices, auto services and local retail. For many businesses, Spanish-language ads reach customers competitors overlook.",
+        "target": [
+            "Aurora ZIP codes 60502, 60503, 60504, 60505 and 60506",
+            "Nearby towns: Naperville, North Aurora, Montgomery and Oswego",
+            "Spanish-language ads and lead forms where your audience prefers them",
+            "Click-to-message ads through WhatsApp",
+        ],
+        "niches": ["hvac", "roofing", "dental", "fitness"],
+        "near": ["naperville", "oak-brook"],
+        "faq": ("Should we run ads in Spanish?",
+                "If your team can serve Spanish-speaking customers, yes. Running Spanish versions of your ads and forms, with replies in Spanish, often reaches people your competitors miss."),
+    },
+    {
+        "slug": "arlington-heights", "name": "Arlington Heights",
+        "title": "Facebook Ads Agency in Arlington Heights, IL | Facebook Ads",
+        "desc": "Facebook and Instagram ads for Arlington Heights businesses: local campaigns reaching Arlington Heights, Palatine, Mount Prospect and Buffalo Grove. Free audit.",
+        "lede": "Arlington Heights is a large northwest Cook County suburb with a lively downtown along the Metra line and established residential neighborhoods.",
+        "about": "Homeowners here keep home service, remodeling and health businesses busy, and downtown restaurants and shops draw from neighboring towns. Local businesses also benefit from strong community attachment.",
+        "target": [
+            "Arlington Heights ZIP codes 60004 and 60005",
+            "Nearby towns: Palatine, Mount Prospect, Buffalo Grove and Rolling Meadows",
+            "Homeowner targeting for home services and remodeling",
+            "Downtown-focused ads for dining and retail",
+        ],
+        "niches": ["hvac", "remodeling", "dental", "real-estate"],
+        "near": ["schaumburg", "evanston"],
+        "faq": ("Should we target Arlington Heights alone or the whole northwest suburbs?",
+                "It depends on how far you'll travel or how far customers will come to you. Most service businesses do better with the surrounding towns included, so Meta has more people to work with."),
+    },
+    {
+        "slug": "orland-park", "name": "Orland Park",
+        "title": "Facebook Ads Agency in Orland Park, IL | Orland Park Facebook Ads",
+        "desc": "Facebook and Instagram ads for Orland Park businesses: local campaigns reaching Orland Park, Tinley Park, Palos Heights and Mokena. Free account audit.",
+        "lede": "Orland Park is a southwest suburban hub, with Orland Square Mall and the LaGrange Road shopping corridor drawing people from across the area.",
+        "about": "A large family population supports home services, dental and health practices, fitness studios and auto services, while retail and dining pull customers from the surrounding southwest suburbs.",
+        "target": [
+            "Orland Park ZIP codes 60462 and 60467",
+            "Nearby towns: Tinley Park, Palos Heights, Mokena and Orland Hills",
+            "Family-focused offers for home and health services",
+            "Retail and dining ads around the LaGrange Road corridor",
+        ],
+        "niches": ["hvac", "roofing", "dental", "fitness"],
+        "near": ["oak-park", "naperville"],
+        "faq": ("Can you cover the whole southwest suburbs?",
+                "Yes. We can target Orland Park as the center and include the towns you serve, adjusting the area based on where your leads and customers actually come from."),
+    },
+]
+
+for _a in AREAS:
+    _a["nav"] = _a["name"]
+    _a["card"] = _a["lede"].split(",")[0].rstrip(".") + "."
+    _a["h1"] = f"Facebook ads in {_a['name']}"
+
+NICHE_BY_SLUG = {n["slug"]: n for n in NICHES}
+AREA_BY_SLUG = {a["slug"]: a for a in AREAS}
 
 TOOLS = [
     {
@@ -341,7 +810,7 @@ def business_schema():
         "telephone": SITE["phone_e164"],
         "email": SITE["email"],
         "image": SITE["domain"] + "/og.png",
-        "logo": SITE["domain"] + "/favicon.svg",
+        "logo": SITE["domain"] + "/logo.png",
         "address": {
             "@type": "PostalAddress",
             "streetAddress": SITE["street"],
@@ -350,7 +819,7 @@ def business_schema():
             "postalCode": SITE["zip"],
             "addressCountry": SITE["country"],
         },
-        "areaServed": {"@type": "City", "name": "Chicago"},
+        "areaServed": [{"@type": "City", "name": "Chicago"}] + [{"@type": "City", "name": f"{a['name']}, IL"} for a in AREAS],
         "knowsAbout": ["Facebook advertising", "Instagram advertising", "Lead generation", "Meta Conversions API"],
     }
 
@@ -393,11 +862,12 @@ def service_schema(name, desc, slug, service_type):
 # --------------------------------------------------------------------------
 # Shared layout
 # --------------------------------------------------------------------------
-def dropdown(key, label, overview_slug, overview_label, items):
+def dropdown(key, label, overview_slug, overview_label, items, wide=False):
     links = "".join(f'<li><a href="{url(i["slug"])}">{e(i["nav"])}</a></li>' for i in items)
+    cls = "dd dd-wide" if wide else "dd"
     return f"""<li class="has-dd">
           <button type="button" class="dd-btn" aria-expanded="false" aria-controls="dd-{key}">{label}<svg aria-hidden="true" width="10" height="10" viewBox="0 0 10 10"><path d="M1.5 3.5 5 7l3.5-3.5" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></button>
-          <ul class="dd" id="dd-{key}">
+          <ul class="{cls}" id="dd-{key}">
             <li><a href="{url(overview_slug)}">{overview_label}</a></li>
             {links}
           </ul>
@@ -421,14 +891,14 @@ def header():
     return f"""<a class="skip" href="#main">Skip to content</a>
 <header class="site-header">
   <div class="wrap header-row">
-    <a class="brand" href="/" aria-label="{e(SITE["name"])} home">
-      <span class="brand-mark" aria-hidden="true">FA</span>
-      <span class="brand-text">Facebook Ads Agency<span>Chicago</span></span>
+    <a class="brand" href="/">
+      <img src="/logo.svg" width="206" height="36" alt="{e(SITE["name"])} home">
     </a>
     <nav class="primary" aria-label="Main">
       <ul class="nav-list">
         {dropdown("services", "Services", "services", "All services", SERVICES)}
-        {dropdown("industries", "Industries", "industries", "All industries", INDUSTRIES)}
+        {dropdown("industries", "Industries", "industries", "All industries", INDUSTRIES + NICHES, wide=True)}
+        {dropdown("areas", "Areas", "areas", "All areas", AREAS)}
         {tools_dd}
         <li><a class="nav-link" href="{SITE["offer_url"]}">Free audit</a></li>
       </ul>
@@ -439,7 +909,8 @@ def header():
   <nav class="mobile-menu" id="mobile-menu" aria-label="Mobile" hidden>
     <div class="wrap">
       {mobile_group("Services", "services", "All services", SERVICES)}
-      {mobile_group("Industries", "industries", "All industries", INDUSTRIES)}
+      {mobile_group("Industries", "industries", "All industries", INDUSTRIES + NICHES)}
+      {mobile_group("Areas", "areas", "All areas", AREAS)}
       {tools_m}
       <div class="m-actions">
         <a class="btn" href="{SITE["offer_url"]}">Get a free audit</a>
@@ -452,13 +923,14 @@ def header():
 
 def footer():
     svc = "".join(f'<li><a href="{url(s["slug"])}">{e(s["nav"])}</a></li>' for s in SERVICES)
-    ind = "".join(f'<li><a href="{url(i["slug"])}">{e(i["nav"])}</a></li>' for i in INDUSTRIES)
+    ind = "".join(f'<li><a href="{url(i["slug"])}">{e(i["nav"])}</a></li>' for i in INDUSTRIES + NICHES)
+    ar = '<li><a href="/">Chicago</a></li>' + "".join(f'<li><a href="{url(a["slug"])}">{e(a["name"])}</a></li>' for a in AREAS)
     tl = "".join(f'<li><a href="{url(t["slug"])}">{e(t["nav"])}</a></li>' for t in TOOLS)
     tools_col = f'<div><h2 class="f-h">Free tools</h2><ul>{tl}</ul></div>' if TOOLS else ""
     return f"""<footer class="site-footer">
   <div class="wrap footer-grid">
     <div class="f-about">
-      <p class="f-name">{e(SITE["name"])}</p>
+      <img class="f-logo" src="/logo.svg" width="183" height="32" alt="{e(SITE["name"])}">
       <p>{e(SITE["tagline"])}</p>
       <address>
         {e(address_line())}<br>
@@ -468,6 +940,7 @@ def footer():
     </div>
     <div><h2 class="f-h">Services</h2><ul>{svc}</ul></div>
     <div><h2 class="f-h">Industries</h2><ul>{ind}</ul></div>
+    <div><h2 class="f-h">Areas</h2><ul>{ar}</ul></div>
     {tools_col}
     <div><h2 class="f-h">Company</h2><ul>
       <li><a href="{SITE["offer_url"]}">Free account audit</a></li>
@@ -540,6 +1013,7 @@ def page(slug, title, desc, body, schemas=None, crumbs=None, sitemap=True, noind
 <meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="#fbfbf9">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="stylesheet" href="/style.css?v={asset_version("style.css")}">
 {gtm_head()}
 <script>window.SITE_CONFIG={json.dumps({"portal": HUBSPOT["portal"], "form": HUBSPOT["form"], "region": HUBSPOT["region"]})};</script>
@@ -778,6 +1252,7 @@ def build_home():
       <a class="text-link" href="/industries">All industries <span aria-hidden="true">&rarr;</span></a>
     </div>
     {card_grid(INDUSTRIES, "See industries")}
+    <ul class="pill-list">{"".join(f'<li><a href="{url(n["slug"])}">{e(n["nav"])}</a></li>' for n in NICHES)}</ul>
   </div>
 </section>
 
@@ -801,6 +1276,17 @@ def build_home():
       <a class="text-link" href="/tools">All tools <span aria-hidden="true">&rarr;</span></a>
     </div>
     {card_grid(TOOLS, "Open the tool")}
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="section-top">
+      <h2 class="section-h">Areas we serve</h2>
+      <a class="text-link" href="/areas">All areas <span aria-hidden="true">&rarr;</span></a>
+    </div>
+    <p class="muted">We're based in the Chicago Loop and run campaigns for businesses across the city and suburbs.</p>
+    <ul class="pill-list">{"".join(f'<li><a href="{url(a["slug"])}">{e(a["name"])}</a></li>' for a in AREAS)}</ul>
   </div>
 </section>
 
@@ -884,6 +1370,12 @@ def build_industries_overview():
 <section class="section tight">
   <div class="wrap"><ul class="rows">{blocks}</ul></div>
 </section>
+<section class="section">
+  <div class="wrap">
+    <h2 class="section-h">By industry</h2>
+    {card_grid(NICHES, "Read more")}
+  </div>
+</section>
 {cta_band()}"""
     page(
         "industries",
@@ -894,8 +1386,16 @@ def build_industries_overview():
     )
 
 
+def niche_links(parent, match):
+    ns = [n for n in NICHES if n["parent"] == parent and n["match"] == match]
+    if not ns:
+        return ""
+    return '<p class="ind-links">' + " &middot; ".join(f'<a href="{url(n["slug"])}">{e(n["name"])}</a>' for n in ns) + "</p>"
+
+
 def build_industry(i):
-    inds = "".join(f"<li><h3>{e(n)}</h3><p>{e(d)}</p></li>" for n, d in i["industries"])
+    inds = "".join(f"<li><h3>{e(n)}</h3><p>{e(d)}</p>{niche_links(i['slug'], n)}</li>" for n, d in i["industries"])
+    guides = [n for n in NICHES if n["parent"] == i["slug"]]
     note = ""
     if i.get("note"):
         note = f'<div class="note"><h2>Special Ad Categories</h2><p>{e(i["note"])}</p></div>'
@@ -922,6 +1422,12 @@ def build_industry(i):
 </section>
 <section class="section">
   <div class="wrap">
+    <h2 class="section-h">Industry pages</h2>
+    {card_grid(guides, "Read more")}
+  </div>
+</section>
+<section class="section">
+  <div class="wrap">
     <h2 class="section-h">Services</h2>
     {card_grid(SERVICES[:3])}
   </div>
@@ -934,6 +1440,113 @@ def build_industry(i):
         body,
         schemas=[service_schema(f"Facebook ads for {i['name']} businesses", i["desc"], i["slug"], "Facebook advertising")],
         crumbs=[("Industries", "industries"), (i["name"], i["slug"])],
+    )
+
+
+def build_niche(n):
+    parent = next(i for i in INDUSTRIES if i["slug"] == n["parent"])
+    siblings = [x for x in NICHES if x["parent"] == n["parent"] and x["slug"] != n["slug"]][:3]
+    offers = "".join(f"<li>{e(o)}</li>" for o in n["offers"])
+    areas = [a for a in AREAS if n["slug"] in a["niches"]] or AREAS[:4]
+    body = f"""{page_hero(n["h1"], n["lede"], eyebrow="Chicago Facebook ads agency")}
+<section class="section tight">
+  <div class="wrap split">
+    <div>
+      <h2 class="section-h">What works</h2>
+      {check_list(n["works"])}
+      <h2 class="small-h">Offers to test</h2>
+      <ul class="pill-list static">{offers}</ul>
+      <div class="note"><h2>Watch out for</h2><p>{e(n["watch"])}</p></div>
+    </div>
+    <aside class="side-box">
+      <h2>Get a free audit</h2>
+      <p>We'll review your current ads, or your plan if you haven't started, and send you a written list of what to fix first.</p>
+      <a class="btn btn-block" href="{SITE["offer_url"]}">Get a free audit</a>
+      <p class="side-meta">{e(SITE["credential"])}</p>
+    </aside>
+  </div>
+</section>
+{faq_section(n["faqs"])}
+<section class="section">
+  <div class="wrap">
+    <h2 class="section-h">Related industries</h2>
+    {card_grid(siblings, "Read more")}
+    <p class="muted area-line">Serving {e(n["nav"].lower() if n["slug"] not in ("saas",) else "SaaS companies")} in Chicago and nearby: {", ".join(f'<a href="{url(a["slug"])}">{e(a["name"])}</a>' for a in areas)}.</p>
+  </div>
+</section>
+{cta_band()}"""
+    page(
+        n["slug"], n["title"], n["desc"], body,
+        schemas=[service_schema(f"Facebook ads for {n['nav'].lower() if n['slug'] != 'saas' else 'SaaS companies'}", n["desc"], n["slug"], "Facebook advertising"), faq_schema(n["faqs"])],
+        crumbs=[("Industries", "industries"), (parent["name"], parent["slug"]), (n["name"], n["slug"])],
+    )
+
+
+def build_areas_overview():
+    rows = "".join(
+        f"""<li>
+      <div><h2><a href="{url(a["slug"])}">{e(a["name"])}</a></h2><p>{e(a["lede"])}</p></div>
+      <a class="text-link" href="{url(a["slug"])}" aria-label="Facebook ads in {e(a["name"])}">Details <span aria-hidden="true">&rarr;</span></a>
+    </li>"""
+        for a in AREAS
+    )
+    body = f"""{page_hero("Areas we serve", "We're based at 229 W Madison St in the Chicago Loop and run Facebook and Instagram ads for businesses across the city and suburbs. Each campaign is targeted to the area you actually serve.")}
+<section class="section tight">
+  <div class="wrap"><ul class="rows">{rows}</ul></div>
+</section>
+{cta_band()}"""
+    page(
+        "areas",
+        "Areas We Serve | Facebook Ads Agency Chicago and Suburbs",
+        "Facebook ads agency serving Chicago and suburbs including Naperville, Schaumburg, Evanston, Oak Brook, Oak Park, Aurora, Arlington Heights and Orland Park.",
+        body,
+        crumbs=[("Areas", "areas")],
+    )
+
+
+def build_area(a):
+    niches = [NICHE_BY_SLUG[s] for s in a["niches"]]
+    near = [AREA_BY_SLUG[s] for s in a["near"]]
+    body = f"""{page_hero(a["h1"], a["lede"], eyebrow=f"{a['name']}, Illinois")}
+<section class="section tight">
+  <div class="wrap split">
+    <div>
+      <h2 class="section-h">Businesses here</h2>
+      <p>{e(a["about"])}</p>
+      <h2 class="section-h area-h">How we target {e(a["name"])}</h2>
+      {check_list(a["target"])}
+    </div>
+    <aside class="side-box">
+      <h2>Free audit for {e(a["name"])} businesses</h2>
+      <p>We'll review your ads, or your plan if you're starting out, and send a written list of what to fix first.</p>
+      <a class="btn btn-block" href="{SITE["offer_url"]}">Get a free audit</a>
+      <p class="side-meta">{e(SITE["credential"])}</p>
+    </aside>
+  </div>
+</section>
+<section class="section">
+  <div class="wrap">
+    <h2 class="section-h">Industries we help</h2>
+    {card_grid(niches, "Read more")}
+  </div>
+</section>
+{faq_section([a["faq"]])}
+<section class="section">
+  <div class="wrap">
+    <h2 class="section-h">Nearby areas</h2>
+    {card_grid(near, "See area")}
+  </div>
+</section>
+{cta_band()}"""
+    page(
+        a["slug"], a["title"], a["desc"], body,
+        schemas=[{
+            "@context": "https://schema.org", "@type": "Service",
+            "name": f"Facebook advertising in {a['name']}, IL", "serviceType": "Facebook advertising",
+            "description": a["desc"], "url": abs_url(a["slug"]), "provider": {"@id": BUSINESS_ID},
+            "areaServed": {"@type": "City", "name": f"{a['name']}, IL"},
+        }, faq_schema([a["faq"]])],
+        crumbs=[("Areas", "areas"), (a["name"], a["slug"])],
     )
 
 
@@ -1164,6 +1777,11 @@ def main():
     build_industries_overview()
     for i in INDUSTRIES:
         build_industry(i)
+    for n in NICHES:
+        build_niche(n)
+    build_areas_overview()
+    for a in AREAS:
+        build_area(a)
     if TOOLS:
         build_tools_overview()
         build_tool_budget(TOOLS[0])
