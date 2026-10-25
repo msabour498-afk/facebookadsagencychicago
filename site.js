@@ -360,7 +360,7 @@
           (formName === "free_audit"
             ? "We'll review your details and reach out to schedule your audit."
             : "We'll get back to you soon.") +
-          " Need us sooner? Call or text <a href=\"tel:+17083931976\">(708) 393-1976</a>.</p>";
+          " Need us sooner? Text <a href=\"sms:+17083931976\">(708) 393-1976</a>.</p>";
         form.replaceWith(done);
         done.focus();
       } else {

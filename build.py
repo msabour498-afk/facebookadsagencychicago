@@ -951,7 +951,7 @@ def footer():
       <p>{e(SITE["tagline"])}</p>
       <address>
         {e(address_line())}<br>
-        <a href="tel:{SITE["phone_e164"]}">{SITE["phone_display"]}</a><br>
+        Text <a href="sms:{SITE["phone_e164"]}">{SITE["phone_display"]}</a><br>
         <a href="mailto:{SITE["email"]}">{SITE["email"]}</a>
       </address>
     </div>
@@ -971,7 +971,7 @@ def footer():
 </footer>
 <div class="float-contact" role="group" aria-label="Contact us">
   <a href="sms:{SITE["phone_e164"]}" data-contact="sms">Text us</a>
-  <a href="tel:{SITE["phone_e164"]}" data-contact="phone">Call us</a>
+  <a href="mailto:{SITE["email"]}" data-contact="email">Email us</a>
 </div>"""
 
 
@@ -1066,7 +1066,7 @@ def cta_band(heading="Start with a free audit", text=None):
     </div>
     <div class="cta-actions">
       <a class="btn" href="{SITE["offer_url"]}">Get my free audit</a>
-      <a class="btn btn-ghost" href="tel:{SITE["phone_e164"]}">Call {SITE["phone_display"]}</a>
+      <a class="btn btn-ghost" href="sms:{SITE["phone_e164"]}">Text {SITE["phone_display"]}</a>
     </div>
   </div>
 </section>"""
@@ -1698,9 +1698,8 @@ def build_contact():
   <div class="wrap offer-grid">
     <div>
       <h1>Contact us</h1>
-      <p class="lede">Questions about Facebook or Instagram ads? Call, text or send a message and we'll get back to you.</p>
+      <p class="lede">Questions about Facebook or Instagram ads? Text us, email us or send a message and we'll get back to you.</p>
       <ul class="contact-list">
-        <li><span class="c-label">Call</span><a href="tel:{SITE["phone_e164"]}">{SITE["phone_display"]}</a></li>
         <li><span class="c-label">Text</span><a href="sms:{SITE["phone_e164"]}">{SITE["phone_display"]}</a></li>
         <li><span class="c-label">Email</span><a href="mailto:{SITE["email"]}">{SITE["email"]}</a></li>
         <li><span class="c-label">Office</span><a href="{maps}" rel="noopener">{e(address_line())}</a></li>
@@ -1719,8 +1718,8 @@ def build_contact():
 </section>"""
     page(
         "contact",
-        "Contact a Facebook Ads Agency in Chicago | Call or Text",
-        f"Contact Facebook Ads Agency Chicago at {address_line()}. Call or text {SITE['phone_display']} or email us about Facebook and Instagram ads.",
+        "Contact a Facebook Ads Agency in Chicago | Text or Email",
+        f"Contact Facebook Ads Agency Chicago at {address_line()}. Text {SITE['phone_display']} or email us about Facebook and Instagram ads.",
         body,
         crumbs=[("Contact", "contact")],
     )
