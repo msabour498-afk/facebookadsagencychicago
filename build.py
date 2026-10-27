@@ -21,7 +21,7 @@ SITE = {
     "short": "FB Ads Agency Chicago",
     "domain": "https://facebookadsagencychicago.com",
     "tagline": "Facebook and Instagram ads that bring in leads for Chicago businesses.",
-    "street": "229 W Madison St",
+    "street": "229 W Madison St, Suite A",
     "city": "Chicago",
     "region": "IL",
     "zip": "60606",
